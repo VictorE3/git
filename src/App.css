@@ -32,3 +32,30 @@
 .card button:hover {
   background: #0284c7;
 }
+
+.lista-itens {
+  list-style: none;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.lista-itens li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.25rem;
+  background: #f1f5f9;
+  border-radius: 6px;
+}
+
+.lista-itens li button {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background: #94a3b8;
+}
+
+.lista-itens li button:hover {
+  background: #ef4444;
+}
